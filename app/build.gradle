@@ -4,6 +4,8 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.1"
 
+    useLibrary 'org.apache.http.legacy'
+
     defaultConfig {
         applicationId "io.github.RulLu16.alertApp"
         minSdkVersion 29
@@ -31,6 +33,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    compileOnly 'com.google.android.wearable:wearable:2.5.0'
 
 }
